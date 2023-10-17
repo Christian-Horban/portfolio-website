@@ -1,0 +1,85 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.page-header, .page-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.page-header img {
+    width: 100px;
+}
+
+.main-navigation ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.main-navigation a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.main-navigation a:hover, .navigation-list__item--active {
+    background-color: #555;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+div {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-media a img {
+    width: 30px;
+    height: 30px;
+}

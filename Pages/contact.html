@@ -1,65 +1,100 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <Title>Contact Christian Horban</Title>
-        <link rel="shortcut icon" href="../img/favicon-16x16.png">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link href="https://fonts.googleapis.com">
-        <link href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="../CSS/style.production.css">
-        <meta name="viewport" content="width=devcie-width, initial-scale=1">
-    </head>
-<body>
+  <head>
+    <title>Contact Christian Horban</title>
+    <link rel="shortcut icon" href="../img/favicon-16x16.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link href="https://fonts.googleapis.com" />
+    <link href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="../CSS/Contact.css" />
+    <meta name="viewport" content="width=devcie-width, initial-scale=1" />
+  </head>
+  <body>
     <header class="page-header">
-        <img src="../img/Christian.logo.png" alt="logo" class="page-header__item">
-        <nav class="main-navigation page-header__item">
-            <ul role="menubar" class="navigation-list">
-                <li role="presentation">
-                    <a href="../html/index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
-                </li>
-                <li role="presentation">
-                    <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
-                </li>
-                <li role="presentation">
-                    <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
-                </li>
-            </ul>
-        </nav>
-    </header> 
-<form action="" method="post">
-        <label class="standard label" for="contact-email">*E-mail: </label>
-        <input type="email" id="contact-email" required>
+      <img
+        src="../img/Christian.logo.png"
+        alt="logo"
+        class="page-header__item"
+      />
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a
+              href="../html/index.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About Me</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item"
+              >Work</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <form action="" method="post">
+      <label class="standard label" for="contact-email">*E-mail: </label>
+      <input type="email" id="contact-email" required />
 
-        <label class="standard label" for="contact-tel">Telephone: </label>
-        <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+      <label class="standard label" for="contact-tel">Telephone: </label>
+      <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" />
 
-        <label class="standard label" for="Message:">*Message: </label>
-        <textarea id="Message:" maxlength="240" required></textarea>
+      <label class="standard label" for="Message:">*Message: </label>
+      <textarea id="Message:" maxlength="240" required></textarea>
 
-        <button> Send Message </button>
-
-
+      <button>Send Message</button>
     </form>
     <div>
-        Christian Horban<br>
-        17065 Carlson Dr.<br>
-        Parker, CO. 80134<br>
-        Phone:<a href="tel: 8313340325">(831) 334-0325</a><br>
-        Email:<a href="mailto:christian.k.horban@gmail.com">christian.k.horban@gmail.com</a> 
+      Christian Horban<br />
+      17065 Carlson Dr.<br />
+      Parker, CO. 80134<br />
+      Phone:<a href="tel: 8313340325">(831) 334-0325</a><br />
+      Email:<a href="mailto:christian.k.horban@gmail.com"
+        >christian.k.horban@gmail.com</a
+      >
     </div>
-         <P> </P>
+    <p></p>
     <footer class="page-footer">
-        <a href="mailto:christian.k.horban@gmail.com">Contact me</a>
-            <h3>Find me on</h3>
-            <!--these icons need to be linked to sites still-->
-                <div class="social-media">
-                    <!-- Github logo -->
-                    <img src="../img/github.svg" alt="github">
-                    <!-- Twitter logo -->
+      <a href="mailto:christian.k.horban@gmail.com">Contact me</a>
+      <h3>Find me on</h3>
+      <!--these icons need to be linked to sites still-->
+      <div class="social-media">
+        <!-- Github logo -->
+        <a
+          href="https://github.com/Christian-Horban"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="../img/github.svg" alt="github" />
+        </a>
+        <!-- Twitter logo (commented out)
+                <a href="YOUR_TWITTER_LINK_HERE" target="_blank" rel="noopener noreferrer">
                     <img src="../img/twitter.svg" alt="twitter">
-                    <!-- LinkedIn logo -->
-                    <img src="../img/linkedin.svg" alt="linkedin">
-                </div>
+                </a> -->
+        <!-- LinkedIn logo -->
+        <a
+          href="https://www.linkedin.com/in/christian-horban-733521b8/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="../img/linkedin.svg" alt="linkedin" />
+        </a>
+      </div>
     </footer>
-</body>
+  </body>
+</html>
